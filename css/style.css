@@ -1,0 +1,122 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/04/2014, 14:47:44
+    Author     : thiago.mallon
+*/
+
+body {
+    background-color: #000;
+}
+
+#box_spaceship {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#screen {
+    float:left;
+    border: 4px ridge gray;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 600px;
+    height: 350px;
+    background-image: url('../img/scenario.jpg');
+    background-position: -70px;
+}
+
+#btn_a, #btn_b {
+    cursor: pointer;
+    float:left;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 100px;
+    height: 350px;
+    color: #fff;
+    text-align: center;
+    font-size: 100px;
+}
+ #btn_b {
+     font-size: 100px;
+ }
+
+#fly {
+    color: gainsboro;    
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+}
+
+#fly img{
+    width: 50px;
+    -moz-transform:rotate(270deg);
+    transform:rotate(270deg);
+    -webkit-transform:rotate(270deg);
+    -ms-transform:rotate(270deg);
+    -o-transform: rotate(270deg);
+}
+
+#fly_enemy {
+    color: gainsboro;    
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 385px;
+    position: absolute;
+}
+#fly_enemy img {
+    height: 50px;
+    -moz-transform:rotate(270deg);
+    transform:rotate(270deg);
+    -webkit-transform:rotate(270deg);
+    -ms-transform:rotate(270deg);
+    -o-transform: rotate(270deg);
+}
+
+#informations {
+    width: 600px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#informations table {
+    float: right;
+    text-align: right;
+    color: gainsboro;
+    font-weight: bolder;
+    font-family: arial;
+    font-size: 20px;
+}
+
+#to_do{
+    position: fixed;
+    color: #fff;
+    font-weight: bolder;
+    font-family: arial;
+    font-size: 15px;
+    float: left;
+    width: 400px;
+}
+
+#possible_flys {    
+    width: 600px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+#possible_flys img{
+    width: 50px;
+}
+
+#shot_sounds {
+    display: none;
+}
+
+#explosion_sounds  {
+    display: none;
+}
